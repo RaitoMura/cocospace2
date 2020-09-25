@@ -4,9 +4,9 @@
 
 <?php
 
-$dsn = 'mysql:dbname=co_19_264_99sv_coco_com;host=localhost;charset=utf8';
+$dsn = 'mysql:dbname=**************;host=localhost;charset=utf8';
 $user = 'co-19-264.99sv-coco.c';
-$password = 'gJ4TjKuF';
+$password = '************';
 
 try{
     $dbh = new PDO($dsn, $user, $password);
