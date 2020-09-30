@@ -51,6 +51,10 @@ if($modify_flag == 1){
         header('Location: http://co-19-264.99sv-coco.com/board.php?brank=3'); 
         exit;
     }
+    if(strlen($comment)>=60){// 文字数が多い場合の分岐
+        header('Location: http://co-19-264.99sv-coco.com/board.php?brank=4'); 
+        exit;
+    }
     //投稿番号の取得
     if($contents == NULL){
         $number = 0;

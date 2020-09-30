@@ -132,6 +132,10 @@ if(!empty($_POST['modify_flag'])){
             case 3:
                 echo "パスワードが未入力です。<br>";
             break;
+            case 4:
+                echo "文字数が多すぎます。<br>";
+            break;
+            
             default:
             break;
 
